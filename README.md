@@ -18,7 +18,7 @@ This repository is our C++ implementation of the **ECCV 2016** paper, **Natural 
 
 ### Building
 1. cd to the ./vlfeat-0.9.20 and build the vlfeat; in ubuntu, "make" is enough for this task
-2. use the CMake to configure the project and make sure set the VLFEAT_LIBRARY with the "./vlfeat-0.9.20/bin/***(the name depend on you system)/libvl"
+2. use the CMake to configure the project and make sure set the VLFEAT_LIBRARY with the "./vlfeat-0.9.20/bin/***(the name depend on you system)/libvl.so"
 3. mkdir build 
 4. cd build && cmake .. && make 
 5. BE AWARE THE DEAFULT BUILD-TYPE IS "debug"
